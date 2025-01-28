@@ -8,7 +8,7 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevents scrolling */
+  /* overflow: hidden; Prevents scrolling */
 }
 
 /* Resetting all elements to ensure no padding/margin issues */
@@ -96,4 +96,13 @@ html, body {
     height: 100vh; /* Viewport height */
     width: 100vw; /* Viewport width */
   }
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

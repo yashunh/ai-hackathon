@@ -18,26 +18,9 @@ let domains = [
 export default function Summary() {
   return (
     <div className="grid grid-cols-5 pl-10">
-      <div className="col-span-3">
+      <div className="col-span-3 px-4">
         <TextGenerateEffect duration={0.5} words={words + domains.join("")} />
       </div>
-      {/* <div className="col-span-2 flex flex-col">
-        <h1 className="text-xl md:text-3xl lg:text-5xl font-bold text-center text-white relative z-2 font-sans pb-4">
-          DateTime And Venue
-        </h1>
-        <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-center text-white relative z-2 font-sans pl-1">
-          27 - 28 Feb (10 AM to 12 PM)
-        </h1>
-        <h1 className="pl-36 text-lg md:text-xl lg:text-2xl font-bold text-white relative z-2 font-sans">
-          Room No. 314
-        </h1>
-        <h1 className="pl-36 text-lg md:text-xl lg:text-2xl font-bold text-white relative z-2 font-sans">
-          B5 Block
-        </h1>
-        <h1 className="pl-36 text-lg md:text-xl lg:text-2xl font-bold text-white relative z-2 font-sans">
-          Chandigarh University
-        </h1>
-      </div> */}
       <div className="col-span-2 flex flex-col ml-20 mt-4">
         <div className="w-full relative max-w-xs">
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
@@ -62,7 +45,6 @@ export default function Summary() {
                 Chandigarh, India
               </p>
             </div>
-            {/* Meaty part - Meteor effect */}
             <Meteors number={100} />
           </div>
         </div>

@@ -168,7 +168,6 @@ const data = [
 export default function Page() {
     return (
         <div className="flex justify-center flex-col">
-            {/* <Title title="Timeline"/> */}
             <Timeline data={data} />
         </div>
     );

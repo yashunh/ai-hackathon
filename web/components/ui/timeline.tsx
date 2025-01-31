@@ -39,10 +39,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          <ColourfulText text="Timeline"/>
-        </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+        <div className="flex justify-center">
+          <div className="text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-sans w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
+            <ColourfulText text="Timeline" />
+          </div>
+        </div>
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base text-center">
           Day to day timeline for What The Hack presented by Sci Fi Innovation Club
         </p>
       </div>

@@ -91,7 +91,6 @@ html, body {
     width: 100%;
   }
 
-  /* Enforcing container sizes */
   div.fullscreen-container {
     height: 100vh; /* Viewport height */
     width: 100vw; /* Viewport width */
@@ -101,8 +100,37 @@ html, body {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
 }
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+@property --num {
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+@keyframes counter {
+  from {
+      --num: 0;
+  }
+  to {
+      --num: 100;
+  }
+}  

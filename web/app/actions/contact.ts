@@ -1,4 +1,4 @@
-"use server"
+"use server";
 
 import client from "@/db"
 
@@ -11,7 +11,7 @@ export async function contact(name: string, email: string,query: string) {
         }
     });
 
-    console.log(user.id);
+    console.log(user);
 
     return "Signed up!"
 }

@@ -16,7 +16,7 @@ export const TextGenerateEffect = ({
 }) => {
   const [scope, animate] = useAnimate();
   const isInView = useInView(scope, { once: true, margin: "0px 0px -100px 0px" });
-  let wordsArray = words.split(" ");
+  const wordsArray = words.split(" ");
 
   useEffect(() => {
     if (isInView) {
@@ -32,7 +32,7 @@ export const TextGenerateEffect = ({
         }
       );
     }
-  }, [isInView]);
+  }, [isInView, animate, duration, filter]);
 
   const renderWords = () => {
     return (

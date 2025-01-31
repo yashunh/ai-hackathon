@@ -2,9 +2,9 @@ import ColourfulText from "@/components/ui/colourful-text";
 import { Meteors } from "@/components/ui/meteors";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
-let words = `What the Hack is a hackathon focused on leveraging technology and innovation for social good. Participants collaborate to develop solutions that address various social challenges, such as healthcare access, environmental sustainability, education, and community empowerment. The event encourages creativity, teamwork, and the use of technology to make a positive impact on society. Participants often include programmers, designers, and subject matter experts who work together over a specified period to prototype and present their solutions to a panel of judges on the following domains:\n`;
+const words = `What the Hack is a hackathon focused on leveraging technology and innovation for social good. Participants collaborate to develop solutions that address various social challenges, such as healthcare access, environmental sustainability, education, and community empowerment. The event encourages creativity, teamwork, and the use of technology to make a positive impact on society. Participants often include programmers, designers, and subject matter experts who work together over a specified period to prototype and present their solutions to a panel of judges on the following domains:\n`;
 
-let domains = [
+const domains = [
     "Healthcare,",
     " Disaster Response,",
     " Education,",

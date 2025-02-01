@@ -22,14 +22,14 @@ export default function Page() {
                         <div className="font-semibold text-2xl">
                             Contact Us
                         </div>
-                        <div className="flex">
+                        {/* <div className="flex">
                             <div>
                                 whatsapp
                             </div>
                             <div>
                                 /insta
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="py-2">
                         Ask your questions and solve all your quieres.

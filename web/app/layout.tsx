@@ -14,7 +14,7 @@ export default function RootLayout({
           <div className="flex gap-6 lg:gap-10 pl-6">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
-          <Link href="/theme">PS</Link>
+          <Link href="/problemStatement">PS</Link>
           <Link href="/timeline">Timeline</Link>
           <Link href="/contact">Contact</Link>
           </div>

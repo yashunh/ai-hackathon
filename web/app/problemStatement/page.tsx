@@ -4,7 +4,7 @@ export default function Page() {
     return (
         <div className="flex flex-col items-center justify-center ">
             <div className="mt-16 text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-sans w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
-                <ColourfulText text="Theme" />
+                <ColourfulText text="Problem Statement" />
             </div>
             {/* <div className="w-48 h-64 perspective-1000 font-sans bg-black">
                 <div className="relative w-full h-full text-center transition-transform duration-700 transform-style-preserve-3d group hover:rotate-y-180">

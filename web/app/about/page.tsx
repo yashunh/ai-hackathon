@@ -20,12 +20,12 @@ const domains = [
 export default function Page() {
     return (
         <div className="">
-            <div className="flex justify-center mt-16">
-                <div className="text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-sans w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
-                    <ColourfulText text="WhatTheHack"/>
+            <div className="flex justify-center mt-16 ">
+                <div className="text-5xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-sans w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
+                    <ColourfulText text="WhatTheHack" />
                 </div>
             </div>
-            <div className="grid grid-cols-5 pl-10">
+            <div className="lg:grid lg:grid-cols-5 pl-10  mb-10">
                 <div className="col-span-3 px-4">
                     <TextGenerateEffect duration={0.5} words={words + domains.join("")} />
                 </div>

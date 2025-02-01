@@ -27,7 +27,7 @@ export default function Page() {
       </div>
       <div>
         <span className="flex tabular-num text-5xl font-sans text-white mb-2 animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
-          <span className="sr-only">100</span>+ Registratiion
+          <span className="sr-only">100</span>+ Registration
         </span>
       </div>
     </div>

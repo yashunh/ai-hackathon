@@ -67,7 +67,7 @@ export default function Countdown() {
 function TimeUnit({ label, value }: { label: string; value: number }) {
     return (
         <div className="flex flex-col items-center">
-            <span className="font-sans text-5xl">{value.toString().padStart(2, "0")}</span>
+            <span className="font-mono text-5xl">{value.toString().padStart(2, "0")}</span>
             <span className="text-sm">{label}</span>
         </div>
     );

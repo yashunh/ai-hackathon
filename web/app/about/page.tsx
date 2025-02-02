@@ -21,7 +21,7 @@ export default function Page() {
     return (
         <div className="">
             <div className="flex justify-center mt-16 ">
-                <div className="text-5xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-sans w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
+                <div className="text-5xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-mono w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
                     <ColourfulText text="WhatTheHack" />
                 </div>
             </div>
@@ -34,7 +34,7 @@ export default function Page() {
                         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
                         <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
                             <div className="animate-fade-in">
-                                <h1 className="font-bold text-white relative pb-2 z-50 text-lg md:text-xl lg:text-3xl text-center z-2 font-sans ">
+                                <h1 className="font-bold text-white relative pb-2 z-50 text-lg md:text-xl lg:text-3xl text-center z-2 font-mono ">
                                     DateTime And Venue
                                 </h1>
                                 <h2 className="pb-2 text-lg md:text-xl lg:text-2xl font-bold text-white relative z-50 pl-4">

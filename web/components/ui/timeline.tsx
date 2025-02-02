@@ -34,12 +34,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full bg-white dark:bg-neutral-950 font-mono md:px-10"
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <div className="flex justify-center">
-          <div className="text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-sans w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
+          <div className="text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-mono w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
             <ColourfulText text="Timeline" />
           </div>
         </div>

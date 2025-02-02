@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { contact } from "../actions/contact";
 import { useState } from "react";
 import ColourfulText from "@/components/ui/colourful-text";
+import Image from "next/image";
 
 export default function Page() {
     const [name, setName] = useState("")
@@ -12,24 +13,24 @@ export default function Page() {
     return (
         <div className="flex justify-center flex-col">
             <div className="flex justify-center mt-16">
-                <div className="text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-sans w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
+                <div className="text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-mono w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
                     <ColourfulText text="Contact Us" />
                 </div>
             </div>
             <div className="flex justify-center m-4">
-                <div className="p-6 w-[350px] flex flex-col justify-center text-white border border-gray-800 shadow-sm font-sans rounded-lg ">
+                <div className="p-6 w-[350px] flex flex-col justify-center text-white border border-gray-800 shadow-sm font-mono rounded-lg ">
                     <div className="flex justify-between">
                         <div className="font-semibold text-2xl">
                             Contact Us
                         </div>
-                        {/* <div className="flex">
-                            <div>
-                                whatsapp
-                            </div>
-                            <div>
-                                /insta
-                            </div>
-                        </div> */}
+                        <a className="rounded-full" href="https://chat.whatsapp.com/GDqMuiJDqYbIRsVm0vmX3j" title="whatsapp icons">
+                            <Image src="/whatsapp.png"
+                                    alt="startup template"
+                                    width={24}
+                                    height={24}
+                                    className=""
+                            />
+                        </a>
                     </div>
                     <div className="py-2">
                         Ask your questions and solve all your quieres.

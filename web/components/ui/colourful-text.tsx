@@ -41,7 +41,7 @@ export default function ColourfulText({ text }: { text: string }) {
         opacity: [1, 0.8, 1],
       }}
       transition={{ duration: 0.5, delay: 0.001 }}
-      className="inline-block whitespace-pre font-sans tracking-tight"
+      className="inline-block whitespace-pre font-mono tracking-tight"
     >
       {char}
     </motion.span>

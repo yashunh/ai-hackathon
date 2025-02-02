@@ -69,6 +69,9 @@ export default {
 			  },
 			},
 		},
+		fontFamily: {
+			fantasque: ["Fantasque Sans Mono", "monospace"],
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],

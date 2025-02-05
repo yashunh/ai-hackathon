@@ -12,7 +12,7 @@ export default function Page() {
 
     return (
         <div className="flex justify-center flex-col">
-            <div className="flex justify-center mt-16">
+            <div className="flex justify-center mt-8 lg:mt-16">
                 <div className="text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-mono w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
                     <ColourfulText text="Contact Us" />
                 </div>

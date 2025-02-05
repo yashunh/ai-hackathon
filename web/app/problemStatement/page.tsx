@@ -3,7 +3,7 @@ import ColourfulText from "@/components/ui/colourful-text";
 export default function Page() {
     return (
         <div className="flex flex-col items-center justify-center ">
-            <div className="mt-16 text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-mono w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
+            <div className="mt-8 lg:mt-16 text-2xl md:text-5xl lg:text-7xl font-bold text-white relative z-2 font-mono w-max [filter:drop-shadow(0px_2px_4px_rgba(128,_90,_213,_0.4))]">
                 <ColourfulText text="Problem Statement" />
             </div>
             {/* <div className="w-48 h-64 perspective-1000 font-mono bg-black">

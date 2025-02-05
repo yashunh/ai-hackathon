@@ -15,7 +15,7 @@ export default function Page() {
       <h3 className="text-white text-md lg:text-2xl text-center">
         A Hackathon for Social Well Being
       </h3>
-      <a href="https://unstop.com/o/6wIhJke?lb=OGUy55pL&utm_medium=Share&utm_source=shortUrl"
+      <a href="https://lu.ma/y5yw8ygc?tk=fZmJQQ"
         className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center relative z-20 py-3 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
         <Cover>Register</Cover>
       </a>
